@@ -1,0 +1,61 @@
+﻿AI-Based Robot Car
+
+1. Project Overview
+This project aims to develop an AI-powered autonomous robot car capable of perceiving its environment, making intelligent decisions, and navigating dynamically without human intervention. The system will integrate computer vision, sensor fusion, and real-time control algorithms within a robotics framework.
+Inspired by modular robotics platforms such as the Hiwonder Rosorin Pro AI Robot Car Kit and the Hiwonder Vision Raspberry Pi Mecanum Robot Car, the project will focus on advancing autonomy capabilities rather than replicating existing kits. The goal is to build a flexible, extensible platform for experimentation and real-world applications in robotics and AI.
+2. Objectives
+Core Objectives
+    • Autonomous Navigation
+ Enable the robot to move safely in structured and unstructured environments using AI-based perception and planning. 
+    • Computer Vision Integration
+ Implement vision-based capabilities such as: 
+        ◦ Object detection and tracking 
+        ◦ Lane or path recognition 
+        ◦ Obstacle avoidance 
+    • Intelligent Decision-Making
+ Develop algorithms that allow the robot to: 
+        ◦ Interpret sensor data 
+        ◦ Adapt to dynamic environments 
+        ◦ Execute real-time decisions 
+    • Modular AI Framework
+ Design a system architecture that supports: 
+        ◦ Easy integration of new AI models 
+        ◦ ROS 2-based communication and scalability 
+        ◦ Simulation-to-real transfer (e.g., using Isaac Sim or Gazebo) 
+
+3. Project Scope
+Functional Scope
+    • Real-time perception using camera and onboard sensors 
+    • Autonomous driving in indoor and semi-structured environments 
+    • Basic interaction with dynamic obstacles (e.g., humans, objects) 
+    • Teleoperation fallback for testing and safety 
+Non-Functional Scope
+    • Scalability for future research (swarm robotics, delivery systems) 
+    • Hardware-agnostic design (flexible BOM) 
+    • Emphasis on software architecture and AI capabilities 
+
+4. Expected Outcomes
+    • A working prototype of an AI-driven robot car capable of autonomous navigation 
+    • A reusable robotics software stack based on ROS 2 
+    • Demonstrations of: 
+        ◦ Vision-based navigation 
+        ◦ Real-time obstacle avoidance 
+        ◦ Adaptive behavior in changing environments 
+    • A foundation for extending into: 
+        ◦ Autonomous delivery systems (aligned with DroneX vision) 
+        ◦ Multi-agent robotic coordination 
+        ◦ Smart mobility research 
+
+5. Potential Applications
+    • Autonomous Delivery Systems
+ Ground-based last-mile delivery solutions 
+    • Smart Surveillance & Inspection
+ Automated patrol in warehouses or campuses 
+    • Educational & Research Platform
+ AI, robotics, and computer vision experimentation 
+    • Warehouse Automation
+ Inventory transport and tracking in indoor environments 
+
+6. Strategic Vision
+This project serves as a stepping stone toward more advanced autonomous systems, including aerial drones and multi-robot coordination platforms. By focusing on AI-driven perception and decision-making in a ground vehicle, the system will provide a controlled environment to validate algorithms before deploying them in more complex aerial or swarm-based systems.
+
